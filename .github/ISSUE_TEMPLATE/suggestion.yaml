@@ -1,0 +1,54 @@
+name: 🌟 Resource Suggestion
+description: Suggest a new resource for the Awesome List
+title: "[Suggestion] Add <resource name>"
+labels: ["enhancement", "suggestion"]
+assignees: []
+
+body:
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: What is the name of the resource you're suggesting?
+      placeholder: e.g., MyCoolLibrary
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: Provide the direct URL to the resource.
+      placeholder: https://github.com/user/repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: resource-description
+    attributes:
+      label: Short Description
+      description: Write a short, compelling description of the resource (1-2 lines).
+      placeholder: A lightweight tool for handling X in Y.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: The resource is actively maintained.
+          required: true
+        - label: It follows the Awesome List [contribution guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
+          required: true
+        - label: I have checked that the resource is not already listed.
+          required: true
+        - label: I have read the [Code of Conduct](https://github.com/sindresorhus/awesome/blob/main/code-of-conduct.md).
+          required: true
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Anything else you'd like to add?
+      placeholder: Optional
