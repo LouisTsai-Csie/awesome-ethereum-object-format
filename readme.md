@@ -4,7 +4,7 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome Ethereum Object Format [![lint](https://github.com/LouisTsai-Csie/awesome-ethereum-object-format/actions/workflows/lint.yaml/badge.svg)](https://github.com/LouisTsai-Csie/awesome-ethereum-object-format/actions/workflows/lint.yaml)
+# Awesome Ethereum Object Format
 
 <!-- subtitle -->
 
@@ -12,13 +12,13 @@
 
 <!-- image -->
 
-<a href="" target="_blank" rel="noopener noreferrer">
-  <img src="" />
-</a>
+<div>
+  <img src="https://raw.githubusercontent.com/LouisTsai-Csie/awesome-ethereum-object-format/main/EOF.png" />
+</div>
 
 <!-- description -->
 
-Ethereum’s EVM Object Format (EOF) — a versioned, extensible bytecode container that separates code and data for improved validation and efficiency.
+Ethereum's EVM Object Format (EOF) — a versioned, extensible bytecode container that separates code and data for improved validation and efficiency.
 
 </div>
 
@@ -26,7 +26,7 @@ Ethereum’s EVM Object Format (EOF) — a versioned, extensible bytecode contai
 
 ## Contents
 
-- [Awesome Ethereum Object Format ](#awesome-ethereum-object-format-)
+- [Awesome Ethereum Object Format](#awesome-ethereum-object-format)
   - [Contents](#contents)
   - [Featured](#featured)
   - [Learning](#learning)
@@ -80,11 +80,11 @@ Ethereum’s EVM Object Format (EOF) — a versioned, extensible bytecode contai
 
 
 ### Discussion
-- [Ethereum is turning into a labyrinth of unnecessary complexity with EOF - Let’s reconsider EOF](https://ethereum-magicians.org/t/ethereum-is-turning-into-a-labyrinth-of-unnecessary-complexity-with-eof-lets-reconsider-eof/23136/1): Discussion on the complexity of EOF from Ethereum Magician by [pcaversaccio](https://pcaversaccio.com/)
+- [Ethereum is turning into a labyrinth of unnecessary complexity with EOF - Let's reconsider EOF](https://ethereum-magicians.org/t/ethereum-is-turning-into-a-labyrinth-of-unnecessary-complexity-with-eof-lets-reconsider-eof/23136/1): Discussion on the complexity of EOF from Ethereum Magician by [pcaversaccio](https://pcaversaccio.com/)
 - [EOF: When Complexity Outweighs Necessity](https://hackmd.io/@pcaversaccio/eof-when-complexity-outweighs-necessity):Unpacking the complexities behind EOF
-- [Prysm’s Recommendation for Fusaka](https://hackmd.io/@ttsao/fusaka-prysm-rec): Recommenation from [Prysm](https://x.com/prylabs) Ethereum Client team
+- [Prysm's Recommendation for Fusaka](https://hackmd.io/@ttsao/fusaka-prysm-rec): Recommenation from [Prysm](https://x.com/prylabs) Ethereum Client team
 - [The Case for EOF](https://soliditylang.org/blog/2025/03/27/the-case-for-eof/): EOF opinion from [Solidity](https://x.com/solidity_lang) team
-- [Our position on the Fusaka hardfork](https://hackmd.io/@RoboCopsGoneMad/H1z1lky6Je): The [Besu](https://x.com/HyperledgerBesu) team’s perspective on the Fusaka and EOF upgrades
+- [Our position on the Fusaka hardfork](https://hackmd.io/@RoboCopsGoneMad/H1z1lky6Je): The [Besu](https://x.com/HyperledgerBesu) team's perspective on the Fusaka and EOF upgrades
 - [EOF Fusaka Options](https://notes.ethereum.org/@ipsilon/eof_fusaka_options): Four different EOF options proposed by [Ipsilon](https://notes.ethereum.org/@ipsilon/about) team
 
 
